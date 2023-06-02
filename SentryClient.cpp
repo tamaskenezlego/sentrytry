@@ -17,7 +17,7 @@ namespace
     std::atomic<bool> s_sentryInitialized = false;
     const char* kOfficialReleaseDSN = "https://c10075b6235d452797ab3adcc9a478b9@buggy.apps.lego.com/187";
     //const char* kDevelopmentDSN = "https://ec1a2eb3fa274c1b9d571a79d2a723ae@buggy.apps.lego.com/189";
-const char* kDevelopmentDSN = "https://f7c6f9dbff6443a0a77f90f0d24be3c3@o4504718439219200.ingest.sentry.io/4504718445510656";
+const char* kDevelopmentDSN = "http://dbef2661b3f04be6bee1d5568a8c53ba@ec2-54-246-129-20.eu-west-1.compute.amazonaws.com:9000/3";
     const char* kSentryDatabaseFilename = "sentry-native";
 
     fs::path GetCrashpadHandlerPath()

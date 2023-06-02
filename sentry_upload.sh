@@ -1,1 +1,1 @@
-sentry-cli --auth-token 1eb059ef994c41399e0f17b5c87b05ec79689f626b4a4e6dad4ee12e02f50f18 upload-dif --org lego-g1 --project native "$@"
+sentry-cli --auth-token fb61c8995df940b485c1f7db4acbc89e708a83a6644b4c1e866ab77067979343 --url http://ec2-54-246-129-20.eu-west-1.compute.amazonaws.com:9000 upload-dif --org lego --project lddpro-dev "$@"
